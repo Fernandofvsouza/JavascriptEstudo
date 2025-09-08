@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcule seu IMC</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <section class="container">
+      <h1>Tabela IMC</h1>
+     <div class="sub-text">
+        <div class="esquerdo">
+            <h5>IMC</h5>
+            <P>Menos do que 18,5 <br></P>
+            <P>Entre 18,5 e 24,9 <br></P>
+            <P>Entre 25 e 29,9 <br></P>
+            <P>Entre 30 e 34,9 <br></P>
+            <P>Entre 35 e 39,9 <br></P>
+            <P>Mais do que 40 <br></P>
+
+        </div>
+        <div class="direito">
+            <h5>Resultado</h5>
+            <P>Abaixo do peso<br></P>
+            <P>Peso normal <br></P>
+            <P>Sobrepeso <br></P>
+            <P>Obesidade grau 1 <br></P>
+            <P>Obesidade grau 2<br></P>
+            <P>Obesidade grau 3 <br></P>
+        </div>
+     </div>
+
+     <h3 class="sub-title">Calcule seu IMC</h3>
+
+      <form action="" id="meuFormulario">
+        <label for="peso">Peso:</label>
+        <input type="number" id="peso" />
+
+        <label for="altura">Altura:</label>
+        <input type="number" id="altura" step="any" inputmode="decimal">
+
+        <button>Enviar</button>
+    </form>
+        <h1 id="res"></h1>
+    </section>
+
+    <script src="./js/MinhaManeira.js"></script>
+  </body>
+</html>
