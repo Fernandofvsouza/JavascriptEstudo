@@ -31,7 +31,7 @@ const pessoa3 = {
 	•	Mais simples, fácil de ler
 	•	Ideal para criar objetos com lógica ou dados internos mais complexos (como closures)
 */
-
+//Exemplo 1:
 function Pessoa(nome, idade,){
     return {
         nome,
@@ -44,6 +44,9 @@ const pessoa4 = Pessoa('Geison', 23)
 pessoa4.andar()
 const pessoa5 = Pessoa('Carlos', 90)
 pessoa5.andar()
+
+//Exemplo 2:
+
 
 //Exemplo usando função construtora
 /*
