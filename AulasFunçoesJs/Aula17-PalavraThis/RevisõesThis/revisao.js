@@ -23,7 +23,7 @@ sayHello();
 //Geralmente o this se refere ao objeto que esta sendo usado no lado esquerdo do ponto (.)
 //Exemplo:
 function talk(){
-    return `I'am ${this.name}` //this.name se refere ao objeto que está sendo usado no lado esquerdo do ponto (.)
+    return `I'am ${this.name}` 
 }
 const me = {
     name: 'Fernando',
